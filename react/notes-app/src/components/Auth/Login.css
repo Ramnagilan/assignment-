@@ -1,33 +1,38 @@
 .auth-buttons {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
-  margin-top: 15px;
+  gap: 12px;
+  margin-top: 20px;
 }
 
 .auth-buttons button {
   flex: 1;
   padding: 12px;
-  border-radius: 5px;
+  border-radius: 8px;
   border: none;
   cursor: pointer;
   color: white;
   font-size: 16px;
-  transition: 0.3s;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
+/* Register */
 .auth-buttons button:first-child {
-  background-color: #007bff; /* Login button blue */
+  background: linear-gradient(135deg, #34d399, #059669);
 }
-
 .auth-buttons button:first-child:hover {
-  background-color: #0056b3;
+  background: linear-gradient(135deg, #059669, #047857);
+  transform: translateY(-2px);
 }
 
+/* Login */
 .auth-buttons button:last-child {
-  background-color: #28a745; /* Register button green */
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
 }
-
 .auth-buttons button:last-child:hover {
-  background-color: #1e7e34;
+  background: linear-gradient(135deg, #1d4ed8, #1e40af);
+  transform: translateY(-2px);
 }
