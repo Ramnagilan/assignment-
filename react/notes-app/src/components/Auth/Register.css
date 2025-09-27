@@ -1,0 +1,32 @@
+.auth-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.auth-buttons button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.auth-buttons button:first-child {
+  background-color: #28a745;
+}
+
+.auth-buttons button:first-child:hover {
+  background-color: #1e7e34;
+}
+
+.auth-buttons button:last-child {
+  background-color: #007bff;
+}
+
+.auth-buttons button:last-child:hover {
+  background-color: #0056b3;
+}
